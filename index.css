@@ -1,0 +1,102 @@
+.jumbotronContainer{
+  overflow: hidden;
+}
+.introtext{
+  width: 50%;
+  overflow: hidden;
+}
+.slideAnimation{
+  position: relative;
+  animation: slidein 1.8s ease-out;
+  overflow: hidden;
+}
+@keyframes slidein {
+  from{transform: translateX(-1000px);}
+  to{transform: translateX(0px);}
+}
+.slideAnimation2{
+  position: relative;
+  animation: slidein2 1.8s ease-out;
+  overflow: hidden;
+}
+@keyframes slidein2 {
+  from{transform: translateX(2000px);}
+  to{transform: translateX(0px);}
+}
+.linkmodal{
+  text-decoration: none;
+  color: black;
+}
+.linkmodal:hover{
+  text-decoration: none;
+  color: black;
+}
+.projectcard:hover{
+  filter: invert(100%);
+}
+.contacttext{
+  font-size: 0.7em;
+  padding-left: 7.33%;
+  text-align: center;
+  float: left;
+  margin-top: -15px;
+}
+.socialcontacts{
+  float: right;
+  padding-right: 18%;
+}
+.socialmedia{
+  float: right;
+  height: 50px;
+  width: 400px;
+}
+.icons{
+  padding-top: 2%;
+  padding-left: 4%;
+  height: 97%;
+  width: 14%;
+}
+.copyright{
+  font-size: 0.7em;
+  text-align: center;
+}
+.zoomimage{
+  position: absolute;
+  animation: zoom 4.5s 1;
+}
+@keyframes zoom {
+  0%{transform: scale(0); right: 2.96%}
+  25%{transform: scale(0.15); right: 2.96%}
+  100%{transform: scale(1); right: 2.96%}
+}
+.introimgcontainer{
+  width: 383px;
+  height: 261px;
+  float: right;
+  margin-left: 30px;
+}
+.captionCSS{
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+}
+.slidelink{
+  padding: 8px;
+  background-color: rgba(173, 206, 255, 1);
+  text-decoration: none;
+  color: black;
+}
+.slidelink:hover{
+  text-decoration: none;
+  color: black;
+}
+.whitetext{
+  text-decoration: none;
+  color: white;
+}
+.whitetext:hover{
+  color: white;
+}

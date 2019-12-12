@@ -1,0 +1,41 @@
+body{
+  background-color: lightgreen;
+  padding: 30px;
+}
+.title1{
+  color: indigo;
+  text-align: center;
+  font-size: 3em;
+  text-shadow: -5px -5px 5px black;
+  font-family: sans-serif;
+}
+.name{
+  color: blue;
+  font-size: 18px;
+  text-align: right;
+  font-family: monospace;
+}
+p.paragraph::first-letter{
+  font-size: 3em;
+  color: purple;
+  font-weight: bold;
+}
+.paragraph{
+  text-align: justify;
+}
+img{
+  border: dotted 15px orange;
+  width: 300px;
+  height: 280px;
+  margin: 10px;
+}
+.caption{
+  font-size: 14px;
+  text-align:left;
+  color: darkblue;
+}
+.footer{
+  font-size: 75%;
+  text-align: center;
+  color: red;
+}

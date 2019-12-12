@@ -1,0 +1,188 @@
+body{
+  padding: 10px;
+}
+.linkmodal{
+  text-align: center;
+  background-color: orange;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  text-decoration: none;
+}
+.linkmodal:hover{
+  background-color: lightyellow;
+  color: orange;
+}
+.modalwindow{
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(100, 100, 100, 0.5);
+  opacity: 0;
+  pointer-events: none;
+}
+.modalwindow:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in 1s;
+}
+.msgtext{
+  position: absolute;
+  width: 700px;
+  height: 500px;
+  background-color: white;
+  top: 235px;
+  left: 600px;
+  padding: 20px;
+}
+.msgtext h3{
+  background-color: gray;
+  padding: 10px;
+  color: white;
+}
+.msgtext img{
+  width: 30%;
+  margin-left: 35%;
+}
+.modal-close{
+  padding: 12px;
+  color: gray;
+  text-decoration: none;
+}
+.modal-close:hover{
+  color: red;
+  text-decoration: underline;
+}
+/*In Class Activity*/
+.container{
+  width: 800px;
+  height: 500px;
+  margin-top: 30px;
+  margin-bottom: 75px;
+}
+.leftcontainer{
+  width: 400px;
+  height: 500px;
+  float: left;
+}
+.rightcontainer{
+  width: 400px;
+  height: 500px;
+  float: right;
+}
+.front img{
+  margin-left: 25%;
+  margin-top: 30px;
+  height: 50%;
+  width: 50%;
+}
+.front p, h3{
+  text-align: center;
+  margin: 5px;
+}
+.mixmatch{
+  color: red;
+  font-size: 12px;
+}
+.ADD1{
+  text-align: center;
+  color: white;
+  margin-left: 28%;
+  width: 40%;
+  background-color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+.ADD1:hover{
+  background-color: white;
+  color: black;
+}
+.ADD2{
+  text-align: center;
+  color: white;
+  margin-left: 28%;
+  width: 40%;
+  background-color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+.ADD2:hover{
+  background-color: white;
+  color: black;
+}
+
+
+.greenwindow{
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(100, 100, 100, 0.5);
+  opacity: 0;
+  pointer-events: none;
+}
+.greenwindow:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in 0.5s;
+}
+
+
+.greentext img{
+  float: left;
+  margin-left: 20px;
+  height: 235px;
+  width: 175px;
+}
+
+.redtext img{
+  float: left;
+  margin-left: 20px;
+  height: 235px;
+  width: 175px;
+}
+
+.redwindow{
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(100, 100, 100, 0.5);
+  opacity: 0;
+  pointer-events: none;
+}
+.redwindow:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in 0.5s;
+}
+
+
+.greentext{
+  position: absolute;
+  width: 700px;
+  height: 500px;
+  background-color: white;
+  top: 235px;
+  left: 600px;
+  padding: 20px;
+}
+.redtext{
+  position: absolute;
+  width: 700px;
+  height: 500px;
+  background-color: white;
+  top: 235px;
+  left: 600px;
+  padding: 20px;
+}
+.bag{
+  float: left;
+}
+.close{
+  float: right;
+}

@@ -1,0 +1,298 @@
+body{
+  padding: 10px;
+  box-sizing: border-box;
+}
+.p1 {
+  background-color:BlueViolet;
+  padding: 12px;
+}
+.p2{
+  background-color:BurlyWood;
+  padding: 12px;
+}
+.p3{
+  background-color:DarkSalmon;
+  padding: 12px;
+}
+.p4{
+  background-color:rgb(181,23,83);
+  padding: 12px;
+}
+.p5{
+  background-color:rgb(121,199,5);
+  padding: 12px;
+}
+.p6{
+  background-color:rgb(82,82,122);
+  padding: 12px;
+}
+.p7{
+  background-color:#FFD700;
+  padding: 12px;
+}
+.p8{
+  background-color:#FFFFF0;
+  padding: 12px;
+}
+.p9{
+  background-color:#B0E0E6;
+  padding: 12px;
+}
+.p10{
+  background-color:rgb(181,23,83, 0.1);
+  padding: 12px;
+}
+.p11{
+  background-color:rgb(181,23,83, 0.5);
+  padding: 12px;
+}
+.p12{
+  background-color:rgb(181,23,83, 1);
+  padding: 12px;
+}
+.gradient1{
+  height: 200px;
+  background-image: linear-gradient(BlueViolet, DarkSalmon);
+}
+.gradient1{
+  height: 200px;
+  background-image: linear-gradient(BlueViolet, DarkSalmon);
+}
+.gradient2{
+  height: 200px;
+  background-image: linear-gradient(to top right, BlueViolet, DarkSalmon);
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+.img1{
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+.daisytitle{
+  width: 300px;
+  left: 80px;
+  position: absolute;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  text-align: center;
+  font-size: 2em;
+  color: white;
+}
+.container{
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+.txtdaisy{
+  width: 200px;
+  position: absolute;
+  color: skyblue;
+  font-size: 2em;
+  bottom: 50px;
+  right: 0px;
+}
+.heroImage{
+  background-image: linear-gradient(to top left,rgba(82,82,122,0.7), rgba(181,23,83,0.5)), url("Images/daisy.jpg");
+  background-repeat: no-repeat;
+  background-size: 60% 60%;
+  height: 600px;
+  width: 700px;
+  position: relative;
+}
+.heroImage2{
+  background-image: linear-gradient(to top left, rgba(255, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("Images/book.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+  height: 600px;
+  position: relative;
+}
+.heroText{
+  width: 50%;
+  position: absolute;
+  left: 25%;
+  bottom: 30%;
+  color: white;
+  text-align: center;
+}
+.submit{
+  color: lightgray;
+  text-decoration: none;
+  display: inline-block;
+  margin: 60px;
+  background-color: rgba(0,0,0,0.3);
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+}
+.submit:hover{
+  background-color: white;
+  color: red;
+  box-shadow: 0px 0px 0px 2px red;
+}
+/* BLURRED IMAGES */
+.filterContainer{
+  height: 1000px;
+  width: 1000px;
+  margin: auto;
+}
+.filterContainer img{
+  width: 40%;
+  height: 40%;
+  margin: 20px;
+}
+.blur1{
+  filter: blur(1px);
+}
+.blur2{
+  filter: blur(5px);
+}
+.blur3{
+  filter: blur(10px);
+}
+.blur4{
+  filter: blur(20px);
+}
+/* CONTRAST IMAGES */
+.contrast1{
+  filter: contrast(0%);
+}
+.contrast2{
+  filter: contrast(30%);
+}
+.contrast3{
+  filter: contrast(60%);
+}
+.contrast4{
+  filter: contrast(100%);
+}
+/* INVERT IMAGES */
+.invert1{
+  filter: invert(0%);
+}
+.invert2{
+  filter: invert(30%);
+}
+.invert3{
+  filter: invert(60%);
+}
+.invert4{
+  filter: invert(100%);
+}
+/* IN-CLASS ACTIVITY*/
+.img4{
+  width: 350px;
+  height: 500px;
+  position: relative;
+  filter: invert(100%);
+}
+.brooklyntitle{
+  border: solid white;
+  width: 240px;
+  height: 90px;
+  left: 40px;
+  position: absolute;
+  bottom: 35px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  text-align: left;
+  font-size: 1.2em;
+  color: white;
+}
+.txtbrooklyn{
+  position: absolute;
+  bottom: 0px;
+  text-decoration: none;
+  font-size: 0.7em;
+}
+.img5{
+  width: 350px;
+  height: 500px;
+  position: relative;
+  filter: blur(3px);
+}
+.empiretitle{
+  width: 215px;
+  height: 150px;
+  left: 50px;
+  position: absolute;
+  bottom: 140px;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 15px;
+  text-align: left;
+  font-size: 1.2em;
+  color: red;
+  box-shadow: 4px 4px 5px 2px white;
+}
+.txtempire{
+  color: black;
+  position: absolute;
+  bottom: 80px;
+  text-decoration: none;
+  font-size: 0.7em;
+}
+.submit2{
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 80px;
+  bottom: 10px;
+  left: 10px;
+  background-color: red;
+  padding: 10px 25px 10px 25px;
+  border-radius: 10px;
+}
+.submit2:hover{
+  background-color: black;
+  color: red;
+  box-shadow: 0px 0px 0px 2px red;
+}
+
+.img6{
+  background-image: linear-gradient(to top right, rgba(255, 0, 0, 0.7), rgba(0, 0, 255, 0.7)), url("Images/grandcentral.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+  width: 350px;
+  height: 500px;
+  position: relative;
+}
+.img6title{
+  width: 300px;
+  height: 40px;
+  position: absolute;
+  left: 30px;
+  bottom: 55%;
+  color: white;
+  text-align: center;
+}
+.img6txt1{
+  width: 300px;
+  height: 60px;
+  position: relative;
+  bottom: 290px;
+  color: white;
+  text-align: left;
+  font-size: 0.9em;
+}
+.img6txt2{
+  width: 200px;
+  height: 60px;
+  position: relative;
+  left: 125px;
+  bottom: 270px;
+  color: white;
+  text-align: left;
+  font-size: 0.9em;
+}
+.img6txt3{
+  width: 260px;
+  height: 80px;
+  position: relative;
+  left: 40px;
+  bottom: 85px;
+  color: white;
+  text-align: left;
+  font-size: 0.9em;
+}

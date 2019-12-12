@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <title>Project 3 E. Kaloutzis</title>
+  </head>
+  <body data-spy="scroll" data-target="#navbar-site">
+    <nav id="navbar-site" class="fixed-top navbar navbar-dark bg-dark navbar-expand-sm"> <!-- Navbar Start -->
+      <button type="button" name="button" class="navbar-toggler" data-toggle="collapse" data-target="#collapseTab" aria-control="collapseTab" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="collapseTab">
+        <div class="navbar-nav">
+          <a href="#About" class="nav-item nav-link">About Kaloutzis</a>
+          <a href="#Projects" class="nav-item nav-link">Class Projects</a>
+          <a href="#Activities" class="nav-item nav-link">Class Activities</a>
+          <a href="#Contacts" class="nav-item nav-link">Contacts</a>
+        </div>
+      </div>
+    </nav> <!-- Navbar End -->
+<hr><br>
+    <div id="Slide" class="carousel slide" data-ride="carousel"> <!-- Carousel Start -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="images/slide1.jpg" alt="Electrical Engeneering" title="Electrical Engeneering">
+          <div class="carousel-caption captionCSS">
+            <b>HTML</b> "HyperText Markup Language"
+            <p>At the beginning of the course I learned to create structures using only HTML.</p>
+            <a href="project1/index.html" class="slidelink" target="_blank">Visit my HTML Project</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/slide2.jpg" alt="Electrical Engeneering" title="Electrical Engeneering">
+          <div class="carousel-caption captionCSS">
+            <b>CSS</b> "Cascading Style Sheets"
+            <p>After we learned how to build a HTML structure, we were later introduced to CSS and how to style elements.</p>
+            <a href="project2/index.html" class="slidelink" target="_blank">Visit my CSS Project</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/slide3.jpg" alt="Electrical Engeneering" title="Electrical Engeneering">
+          <div class="carousel-caption captionCSS">
+            <b>Bootstrap</b>
+            <p>After we understood and knew how to work with HTML and CSS, we started to learn how to use classes in Bootstrap 4. Bootstrap is the most popular HTML, CSS, and JavaScript framework with developing responsive, moble-first websites.</p>
+            <a href="#Activities" class="slidelink">Visit my Bootstrap Class Activities</a>
+          </div>
+        </div>
+      </div>
+      <!-- Left Control -->
+      <a href="#Slide" data-slide="prev" class="carousel-control-prev"><span class="carousel-control-prev-icon"></span></a>
+      <!-- Right Control -->
+      <a href="#Slide" data-slide="next" class="carousel-control-next"><span class="carousel-control-next-icon"></span></a>
+      <!-- Indicators -->
+        <ul class="carousel-indicators Cindicators">
+          <li data-target="Slide" data-slide-to="0" class="active"></li>
+          <li data-target="Slide" data-slide-to="1"></li>
+          <li data-target="Slide" data-slide-to="2"></li>
+        </ul>
+    </div> <!-- Carousel End -->
+
+    <div class="jumbotron introimage jumbotronContainer" id="About"> <!-- Jumbotron Start -->
+    <div class="introimgcontainer">
+      <div class="zoomimage">
+      <img src="images/intropic.jpg" class="rounded float-right" alt="Intro Picture" title="Intro Picture">
+    </div>
+    </div>
+     <div class="introtext">
+      <div class="slideAnimation">
+        <h1 class="display-4">E. Kaloutzis</h1>
+      </div>
+      <div class="slideAnimation2">
+        <p class="lead">Electrical engineering is my current major.</p>
+      </div>
+      <hr class="my-4">
+      <p>My future inspiration and plan after graduation is to go to a four year college and work on a bachelor's degree in electrical engineering.</p>
+      <br><br>
+      </div>
+    </div> <!-- Jumbotron End -->
+
+    <h2 class="text-light bg-dark" id="Projects">Web Technology Projects</h2>
+<br>
+    <div class="row"> <!-- Project Card Row Start -->
+    <div class="col-md-1"></div>
+    <div class="col-md-5 projectcard"><!-- Project 1 Card Start -->
+      <a href="#Project1Modal" class="linkmodal" data-toggle="modal" data-target="#Project1Modal"><div class="card shadow">
+        <div class="card-body">
+        <img src="images/project1img.png" alt="Project 1" title="Project 1" style="width:100%;">
+        <br><br>
+        <h4>Project 1</h4>
+        </div>
+      </div>
+    </div></a> <!-- Project 1 Card End -->
+
+      <div class="modal fade" id="Project1Modal"><!-- Project 1 Modal Window Start-->
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header"> <!-- modal header -->
+              <h4>HTML Project: Dreaming Places</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body"> <!-- modal body -->
+              <img src="images/project1image.png" alt="Project 1" title="Project 1" style="width:100%">
+              <p>Project 1 consists of creating an informative website. The information of the website is about a place (city, country, or state) where you want to inform people about that place.</p>
+              <p>I created a website about <b>America</b>. I chose America because it is a very large and incredible place which consists of many different things and activites for tourists. As a student of electrical engineering technology and science, I know that America is the leader of technology right now which is why I appreciate it. One day I hope to travel all of America.</p>
+              <a href="project1/index.html" target="_blank">Visit My <b>America</b> Project</a>
+            </div>
+            <div class="modal-footer"> <!-- modal footer -->
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div> <!-- Project 1 Modal Window End -->
+
+    <div class="col-md-5 projectcard"> <!-- Project 2 Card Start -->
+      <a href="#Project2Modal" class="linkmodal" data-toggle="modal" data-target="#Project2Modal"><div class="card shadow">
+        <div class="card-body">
+        <img src="images/project2image.png" alt="Project 2" title="Project 2" style="width:100%;">
+        <br><br>
+        <h4>Project 2</h4>
+      </div>
+     </div>
+    </div></a> <!-- Project 2 Card End -->
+
+    <div class="modal fade" id="Project2Modal"><!-- Project 2 Modal Window Start-->
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header"> <!-- modal header -->
+            <h4>HTML and CSS Project: Sales Website</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body"> <!-- modal body -->
+            <img src="images/project2image.png" alt="Project 2" title="Project 2" style="width:100%">
+            <p>Project 2 consists of creating a sales webpage. The purpose of project 2 is to apply the knowledge of colors, image manipulation, animation, slideshow, and modal window using CSS to create a simple sales page.</p>
+            <p>I created a website about <b>HairCare Shampoo and Conditioner Distributor</b>. On the webpage I presented different hair car products such as shampoos and conditioners. I created a slideshow advertising the many product sales and used hero images to present the hair care products. I presented three different shampoos and three different conditioners using modal windows.</p>
+            <a href="project2/index.html" target="_blank">Visit My <b>HairCare</b> Project</a>
+          </div>
+          <div class="modal-footer"> <!-- modal footer -->
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div> <!-- Project 2 Modal Window End -->
+    <div class="col-md-1"></div>
+   </div> <!-- Project Card Row End -->
+<br>
+    <h2 class="text-light bg-dark" id="Activities">Class Activities</h2>
+<br>
+    <div class="row"> <!-- Class Activities Row Start -->
+      <div class="col-md-4">
+        <div class="card shadow"><!-- HTML Cards Start -->
+          <div class="card-body">
+          <img src="images/html.jpg" alt="HTML" title="HTML" style="width:100%;">
+          <h4>HTML</h4>
+          <h5>Class Activities</h5>
+          <p>At the beginning of the course I learned to create structures using only HTML.</p>
+          <hr>
+          <a href="activities/html/table/index.html" target="_blank">HTML Activity 1: Table</a>
+          </div>
+        </div> <!-- HTML Cards End -->
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow"> <!-- CSS Cards Start -->
+          <div class="card-body">
+          <img src="images/css.jpg" alt="CSS" title="CSS" style="width:100%;">
+          <h4>CSS</h4>
+          <h5>Class Activities</h5>
+          <p>After we learned how to build a HTML structure, we were later introduced to CSS and how to it to style elements.</p>
+          <hr>
+          <a href="activities/css/CSSbasics/index.html" target="_blank">CSS Activity 1: Basic CSS Attributes</a> <hr>
+          <a href="activities/css/animation/index.html" target="_blank">CSS Activity 2: Animation</a> <hr>
+          <a href="activities/css/imageManipulation/index.html" target="_blank">CSS Activity 3: Images manipulation</a> <hr>
+          <a href="activities/css/modalwindow/index.html" target="_blank">CSS Activity 4: Modal Window</a>
+          </div>
+        </div> <!-- CSS Cards End -->
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow"> <!-- Bootstrap Cards Start -->
+          <div class="card-body">
+          <img src="images/bootstrap.jpg" alt="Bootstrap" title="Bootstrap" style="width:100%;">
+          <h4>Bootstrap</h4>
+          <h5>Class Activities</h5>
+          <p>After we understood and know how to work with HTML and CSS, we started to learn how to use classes in Bootstrap 4. Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first websites.</p>
+          <hr>
+          <a href="activities/bootstrap/layoutandcards/index.html" target="_blank">Bootstrap Activity 1: Layout and Cards</a> <hr>
+          <a href="activities/bootstrap/navbarActivity/index.html" target="_blank">Bootstrap Activity 2: Navigation Bars and information Window</a> <hr>
+          <a href="activities/bootstrap/collapsibleSlideshow/index.html" target="_blank">Bootstrap Activity 3: Collapsible and Carousel</a>
+         </div>
+       </div> <!-- Bootstrap Cards End -->
+       </div>
+     </div> <!-- Class Activities Row End -->
+<br>
+
+    <h2 class="text-light bg-dark" id="Contacts">Contacts</h2> <!-- Contacts -->
+    <br>
+    <div class="jumbotron introimage bg-dark text-light">
+      <div class="contacttext">
+        <h6>PHONE NUMBER</h6>
+        <p>(718)888-8888</p>
+      </div>
+      <div class="contacttext">
+        <h6>EMAIL</h6>
+        <a href="http://www.qcc.cuny.edu/office365/index.html" target="_blank" class="whitetext"><p>ekloutzis@qcc.cuny.edu</p></a>
+      </div>
+      <div class="contacttext">
+        <h6>ADDRESS</h6>
+        <p>222-05, 56th Avenue Bayside, NY 11364</p>
+      </div>
+      <div class="contacttext">
+        <h6>OFFICE</h6>
+        <p>Technology Building, T20</p>
+      </div>
+      <br><br> <hr>
+
+      <h6 class="socialcontacts">
+        Follow Kaloutzis on Social Media
+      </h6> <br><br>
+      <div class="socialmedia">
+        <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.jpg" alt="Facebook" class="icons"></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.jpg" alt="Instagram" class="icons"></a>
+        <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.jpg" alt="Youtube" class="icons"></a>
+        <a href="https://www.snapchat.com/" target="_blank"><img src="images/snapchat.jpg" alt="Snapchat" class="icons"></a>
+        <a href="https://twitter.com/?lang=en" target="_blank"><img src="images/twitter.jpg" alt="Twitter" class="icons"></a>
+      </div>
+      <br><br><br><br>
+      <p class="copyright">© 2019 E Kaloutzis. All Rights Reserved. <br><br>
+      NOTE: This webpage is a template to create a portfolio website. All informations and materials used are ONLY for educational purposes.</p>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
